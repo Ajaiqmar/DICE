@@ -15,3 +15,7 @@ else if(randomNumber1 < randomNumber2)
 {
   document.querySelector("h1").textContent = "PLAYER 2 WINS! 🚩";
 }
+else
+{
+  document.querySelector("h1").textContent = "DRAW!";
+}
